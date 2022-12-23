@@ -1,0 +1,91 @@
+body {
+  margin: 0px;
+}
+.nav {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .logo {
+  font-size: 24px;
+  padding: 20px;
+  margin-left: 25px;
+}
+.nav .logo a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav ul {
+  display: flex;
+  width: auto;
+  position: center;
+  text-align: center;
+}
+ul li {
+  padding: 20px;
+  list-style: none;
+}
+ul li a {
+  color: rgb(45, 28, 173);
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+section {
+  height: 300px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+div {
+  min-height: 600px; /* iç blok boyutu */
+}
+section {
+  margin: 0em 10em 10em 10em; /* iç blok boyutu */
+  padding: 3em 10em 3em 10em; /* iç blok boyutu */
+}
+h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 1em;
+}
+p {
+  color: #111;
+  font-family: "Calibri", sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+hr {
+  background-color: #000;
+}
+
+.headerBar {
+  background-image: url("images/1.jpg"); /* resim yolu */
+  background-position: center; /* resmi ortalar */
+  background-size: cover; /* resmi kaplayacak şekilde boyutlandırır */
+  background-repeat: no-repeat; /* resmi tekrar etme */ /* iç blok boyutu */
+  width: 100%; /* genişlik */
+  height: 100%; /* yükseklik */
+  border-right: 0px solid #000;
+}
+.mediumbar {
+  background-color: #d92b2b;
+  color: #ffffff;
+  margin-top: 50px;
+  width: 100%; /* genişlik */
+  height: 30%; /* yükseklik */
+}
+
+.lastbar {
+  background-color: #0c0604;
+  color: #ffffff;
+  margin: 0%; /* dış blok boyutu */
+  width: 100%; /* genişlik */
+  height: 50%; /* yükseklik */
+}
